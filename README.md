@@ -32,16 +32,16 @@ BibleBro is an interactive Bible quiz app designed to help you learn and test yo
 ## 📸 Screenshots
 
 ### Home Screen
-<img src="BibleBro Screenshot 1.png" alt="Home Screen" width="300"/>
+<img src="home.png" alt="Home Screen" width="300"/>
 
 ### Old Testament – Level Selection
-<img src="BibleBro Screenshot 2.png" alt="Old Testament Levels" width="300"/>
+<img src="levels.png" alt="Old Testament Levels" width="300"/>
 
 ### Progress Screen
-<img src="BibleBro Screenshot 3.png" alt="Progress Screen" width="300"/>
+<img src="progress.png" alt="Progress Screen" width="300"/>
 
 ### Quiz Screen
-<img src="BibleBro Screenshot 4.png" alt="Quiz Screen" width="300"/>
+<img src="quiz.png" alt="Quiz Screen" width="300"/>
 
 ---
 
