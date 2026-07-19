@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BibleQuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black_text_primary</item>
+        <item name="colorPrimaryVariant">@color/black_text_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gray_text_secondary</item>
+        <item name="colorOnSecondary">@color/black_text_primary</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black_text_primary</item>
+        <item name="android:fontFamily">@font/shiromeda_bold</item>
+    </style>
+</resources>

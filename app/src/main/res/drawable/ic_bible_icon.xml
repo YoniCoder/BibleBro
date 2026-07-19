@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#1D1D1F"
+        android:pathData="M256,256m-230,0a230,230 0,1 1,460 0a230,230 0,1 1,-460 0"/>
+
+    <!-- Book (Bible) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,120 L352,120 L352,392 L160,392 Z"/>
+
+    <!-- Book Spine -->
+    <path
+        android:fillColor="#34C759"
+        android:pathData="M256,120 L256,392"/>
+
+    <!-- Book Pages -->
+    <path
+        android:fillColor="#F5F5F7"
+        android:pathData="M180,150 L332,150 L332,180 L180,180 Z"/>
+    <path
+        android:fillColor="#F5F5F7"
+        android:pathData="M180,200 L332,200 L332,230 L180,230 Z"/>
+    <path
+        android:fillColor="#F5F5F7"
+        android:pathData="M180,250 L332,250 L332,280 L180,280 Z"/>
+
+    <!-- Cross -->
+    <path
+        android:fillColor="#34C759"
+        android:pathData="M256,280 L256,380"/>
+    <path
+        android:fillColor="#34C759"
+        android:pathData="M226,320 L286,320"/>
+</vector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="📊 እድገትዎ"
+        android:textColor="@color/black_text_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/shiromeda_bold"/>
+
+    <TextView
+        android:id="@+id/overallProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="3/10 ደረጃዎች አልፈዋል"
+        android:textColor="@color/gray_text_secondary"
+        android:textSize="16sp"
+        android:fontFamily="@font/shiromeda_regular"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/progressRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

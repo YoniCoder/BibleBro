@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Progress -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1/10"
+            android:textColor="@color/gray_text_secondary"
+            android:textSize="14sp"
+            android:fontFamily="@font/shiromeda_regular"/>
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅ 0"
+            android:textColor="@color/green_success"
+            android:textSize="14sp"
+            android:fontFamily="@font/shiromeda_regular"/>
+    </LinearLayout>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginVertical="12dp"
+        android:progress="0"
+        android:progressTint="@color/black_text_primary" />
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ጥያቄ ይታያል"
+        android:textColor="@color/black_text_primary"
+        android:textSize="20sp"
+        android:lineSpacingExtra="4dp"
+        android:fontFamily="@font/shiromeda_regular"
+        android:minHeight="80dp"/>
+
+    <!-- Options -->
+    <LinearLayout
+        android:id="@+id/optionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" />
+
+    <!-- Result Layout (Hidden until quiz ends) -->
+    <LinearLayout
+        android:id="@+id/resultContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/resultEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎉"
+            android:textSize="56sp"/>
+
+        <TextView
+            android:id="@+id/resultScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="8/10"
+            android:textColor="@color/black_text_primary"
+            android:textSize="32sp"
+            android:fontFamily="@font/shiromeda_bold"/>
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="እጅግ ጥሩ ስራ!"
+            android:textColor="@color/gray_text_secondary"
+            android:textSize="18sp"
+            android:fontFamily="@font/shiromeda_regular"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/resultUnlockMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/green_success"
+            android:textSize="16sp"
+            android:fontFamily="@font/shiromeda_semibold"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp">
+
+            <Button
+                android:id="@+id/retryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/retry"
+                android:background="@drawable/bg_option"
+                android:textColor="@color/black_text_primary"
+                android:fontFamily="@font/shiromeda_semibold"
+                android:paddingHorizontal="24dp" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/continue_to_next"
+                android:background="@color/black_text_primary"
+                android:textColor="@color/white"
+                android:fontFamily="@font/shiromeda_semibold"
+                android:paddingHorizontal="24dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

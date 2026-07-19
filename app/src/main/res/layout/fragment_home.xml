@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="📖 የመጽሐፍ ቅዱስ ጥያቄዎች"
+        android:textColor="@color/black_text_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/shiromeda_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ደረጃ ይምረጡ"
+        android:textColor="@color/gray_text_secondary"
+        android:textSize="16sp"
+        android:fontFamily="@font/shiromeda_regular"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Old Testament Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/oldTestamentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📜"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/old_testament"
+                android:textColor="@color/black_text_primary"
+                android:textSize="22sp"
+                android:fontFamily="@font/shiromeda_semibold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 ደረጃዎች · 50 ጥያቄዎች"
+                android:textColor="@color/gray_text_secondary"
+                android:textSize="14sp"
+                android:fontFamily="@font/shiromeda_regular"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- New Testament Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/newTestamentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✝️"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/new_testament"
+                android:textColor="@color/black_text_primary"
+                android:textSize="22sp"
+                android:fontFamily="@font/shiromeda_semibold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 ደረጃዎች · 50 ጥያቄዎች"
+                android:textColor="@color/gray_text_secondary"
+                android:textSize="14sp"
+                android:fontFamily="@font/shiromeda_regular"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BibleBro</string>
+    <string name="old_testament">ብሉይ ኪዳን</string>
+    <string name="new_testament">ሐዲስ ኪዳን</string>
+    <string name="levels">ደረጃዎች</string>
+    <string name="questions">ጥያቄዎች</string>
+    <string name="progress">እድገት</string>
+    <string name="home">መነሻ</string>
+    <string name="level">ደረጃ</string>
+    <string name="passed">አልፈዋል</string>
+    <string name="failed">አልተሳካም</string>
+    <string name="locked">ተቆልፏል</string>
+    <string name="retry">ደግሞ ሞክር</string>
+    <string name="continue_to_next">ቀጥል</string>
+    <string name="score">ውጤት</string>
+    <string name="out_of">ከ</string>
+    <string name="unlock_message">ደረጃ %d ተከፍቷል!</string>
+    <string name="great_job">እጅግ ጥሩ ስራ!</string>
+    <string name="good_job">ጥሩ ስራ!</string>
+    <string name="try_harder">ይቻላል! ደግሞ ሞክር!</string>
+</resources>

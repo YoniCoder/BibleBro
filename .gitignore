@@ -1,0 +1,23 @@
+# Built application files
+*.apk
+*.aar
+*.dex
+*.class
+
+# Android Studio
+.idea/
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+
+# NDK
+*.so
+
+# Keystore
+*.jks
+*.keystore
+
+# Crashlytics
+com_crashlytics_export_strings.xml
